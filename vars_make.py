@@ -25,7 +25,7 @@ p_rect = 2*(length_rect+width_rect)
 
 #octagon
 
-a_oct = 2*(1+2**0.5)*side_length_octagon**2
+a_oct = 2*(1+math.sqrt(2))*side_length_octagon**2
 p_oct = 8*side_length_octagon
 
 #output
