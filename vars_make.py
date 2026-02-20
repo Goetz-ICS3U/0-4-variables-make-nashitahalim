@@ -32,4 +32,4 @@ p_oct = 8*side_length_octagon
 
 print (f"The circle has an area of {a_circle} and a perimeter of {p_circle}")
 print (f"The rectangle has an area of {a_rect} and a perimeter of {p_rect}")
-print (f"The octogan has an area of {a_oct} and a perimeter of {p_oct}")
+print (f"The octagan has an area of {a_oct} and a perimeter of {p_oct}")
