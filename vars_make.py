@@ -3,6 +3,7 @@ author: Nashita Halim
 date: 19/2/26
 Making Variables
 """
+import math
 
 #input
 radius = int(input("Input radius of a circle: "))
@@ -14,8 +15,8 @@ side_length_octagon = int(input("Input side length of octagon: "))
 #processing
 
 #CIRCLE
-a_circle = (3.14159)*(radius**2)
-p_circle = 2*(3.14159)*radius
+a_circle = (math.pi)*(radius**2)
+p_circle = 2*(math.pi)*radius
 
 
 #rect
@@ -24,7 +25,7 @@ p_rect = 2*(length_rect+width_rect)
 
 #octagon
 
-a_oct = 2*(1+2**0.5)*(side_length_octagon**2)
+a_oct = 2*(1+2**0.5)*side_length_octagon**2
 p_oct = 8*side_length_octagon
 
 #output
